@@ -1,0 +1,4 @@
+$(xcrun --find docc) process-archive \
+    transform-for-static-hosting  ./xcodedocc.doccarchive/ \
+    --hosting-base-path xcodedocc \
+    --output-path docs;
